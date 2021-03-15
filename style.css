@@ -1,9 +1,31 @@
-h1{
-    color: black;
-    font-family: "Courier New";
+.commonfonts{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    box-align: center;
+    background-color:#fff;
+    margin: 20px;
+    display: grid;
 }
 
-p{
-    color: black;
-    font-family: "Courier New";
+.bio{
+    display: grid;
+    width: 500px;
+    grid-template-columns: 50% 50%;
+}
+
+header{
+	color:black;
+    padding: 0px;
+	text-align: center;
+    margin-bottom: 20px;
+    grid-template-columns: 25%;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(4, 10%);
+    text-align: center;
+    width: 100%;
+    float: left;
 }
