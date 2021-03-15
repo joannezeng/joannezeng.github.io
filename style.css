@@ -12,6 +12,8 @@ body{
     display: grid;
     width: 500px;
     grid-template-columns: 50% 50%;
+    justify-content: center;
+    text-align: center;
 }
 
 header{
@@ -52,10 +54,41 @@ a:hover {
 
 .homebanner{
     margin-top: 25px;
+    margin-bottom: 30px;
+    align-content: center;
+    align-items: center;
     height: 300px;
     background-image: url("https://github.com/joannezeng/joannezeng.github.io/blob/main/html_website_about_banner.jpg?raw=true");
 }
 
+.aboutbanner{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    align-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url("https://github.com/joannezeng/joannezeng.github.io/blob/main/clyde-rs-4XbZCfU2Uoo-unsplash.jpg?raw=true")
+}
+
+.workbanner{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    align-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url("https://github.com/joannezeng/joannezeng.github.io/blob/main/tolga-ahmetler-UWyDCraJVAQ-unsplash.jpg?raw=true");
+}
+
+.contactbanner{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    align-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url("https://github.com/joannezeng/joannezeng.github.io/blob/main/guillaume-galtier-3YrppYQPoCI-unsplash.jpg?raw=true");
+}
+
 .bannertext{
     color: white;
+    text-align: center;
 }
