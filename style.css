@@ -28,35 +28,35 @@ header{
 .navbar{
     display: grid;
     grid-template-columns: repeat(4, 7%);
+    justify-items: center;
     justify-content: center;
-    text-align: center;
     width: 100%;
-    float: left;
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 a:link, a:visited, a:active{
     text-decoration: none;
-    color: rgb(204, 204, 204);
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-a:hover {
+.navfonts:hover {
     text-decoration: none;
     color: black;
 }
 
-.active{
-    color: black;
+.imgbtn:visited{
+    color: white;
+}
+.navfonts{
+    color: rgb(204, 204, 204);
 }
 
 .homebanner{
     margin-top: 25px;
     margin-bottom: 30px;
-    align-content: center;
     align-items: center;
+    align-content: center;
     height: 300px;
     background-image: url("https://github.com/joannezeng/joannezeng.github.io/blob/main/html_website_about_banner.jpg?raw=true");
 }
@@ -64,8 +64,8 @@ a:hover {
 .aboutbanner{
     margin-top: 25px;
     margin-bottom: 30px;
-    align-content: center;
     align-items: center;
+    align-content: center;
     height: 300px;
     background-image: url("https://github.com/joannezeng/joannezeng.github.io/blob/main/clyde-rs-4XbZCfU2Uoo-unsplash.jpg?raw=true")
 }
@@ -73,8 +73,8 @@ a:hover {
 .workbanner{
     margin-top: 25px;
     margin-bottom: 30px;
-    align-content: center;
     align-items: center;
+    align-content: center;
     height: 300px;
     background-image: url("https://github.com/joannezeng/joannezeng.github.io/blob/main/tolga-ahmetler-UWyDCraJVAQ-unsplash.jpg?raw=true");
 }
@@ -82,8 +82,8 @@ a:hover {
 .contactbanner{
     margin-top: 25px;
     margin-bottom: 30px;
-    align-content: center;
     align-items: center;
+    align-content: center;
     height: 300px;
     background-image: url("https://github.com/joannezeng/joannezeng.github.io/blob/main/guillaume-galtier-3YrppYQPoCI-unsplash.jpg?raw=true");
 }
@@ -92,3 +92,49 @@ a:hover {
     color: white;
     text-align: center;
 }
+
+.homeimg{
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.homeimgbtns{
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.aboutlink, .worklink, .contactlink{
+    padding: 20px;
+    background-color: rgb(154,205,50);
+    color: white;
+}
+
+.aboutlink:visited, .worklink:visited, .contactlink:visited{
+    color: white;
+}
+
+/*button {
+    background-color: rgb(154,205,50);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+

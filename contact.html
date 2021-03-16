@@ -13,18 +13,24 @@
             <h1>Joanne Zeng</h1>
         </header>
         <ul class="navbar commonfonts">
-            <li><a href=index.html class="navfonts">home</a></li>
-            <li><a href=about.html class="navfonts">about</a></li>
-            <li><a href=work.html class="navfonts">work</a></li>
-            <li><a href=contact.html class="navfonts">contact</a></li>
+            <a href=index.html class="navfonts">home</a>
+            <a href=about.html class="navfonts">about</a>
+            <a href=work.html class="navfonts">work</a>
+            <a href=contact.html class="navfonts">contact</a>
         </ul>
         <div class="contactbanner">
             <h1 class="commonfonts bannertext">get in touch</h1>
         </div>
+
+        <input type="text" name="name">
         <script>
-            $(document).ready(function(){});
-            $(".navfonts").click(function(){
-                $(".navfonts".css('color', 'red'));
+            $(document).ready(function(){
+            $('input').focus(function(){
+				$(this).css('background', 'pink');
+			});
+			$('input').blur(function(){
+				$(this).css('background', 'white');
+			});
             });
         </script>
     </body>

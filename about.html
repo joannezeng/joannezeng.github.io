@@ -13,10 +13,10 @@
             <h1>Joanne Zeng</h1>
         </header>
         <ul class="navbar commonfonts">
-            <li><a href=index.html class="navfonts">home</a></li>
-            <li><a href=about.html class="navfonts">about</a></li>
-            <li><a href=work.html class="navfonts">work</a></li>
-            <li><a href=contact.html class="navfonts">contact</a></li>
+            <a href=index.html class="navfonts">home</a>
+            <a href=about.html class="navfonts">about</a>
+            <a href=work.html class="navfonts">work</a>
+            <a href=contact.html class="navfonts">contact</a>
         </ul>
         <div class="aboutbanner">
             <h1 class="commonfonts bannertext">get to know me</h1>
@@ -30,9 +30,10 @@
             <img src="https://github.com/joannezeng/joannezeng.github.io/blob/main/profile%203.jpg?raw=true" width="203.7" height="250.8" alt="profile photo"/>
         </div>
         <script>
-            $(document).ready(function(){});
+            $(document).ready(function(){
             $(".navfonts").click(function(){
                 $(".navfonts".css('color', 'red'));
+                });
             });
         </script>
     </body>

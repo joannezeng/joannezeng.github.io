@@ -13,18 +13,19 @@
             <h1>Joanne Zeng</h1>
         </header>
         <ul class="navbar commonfonts">
-            <li><a href=index.html class="navfonts">home</a></li>
-            <li><a href=about.html class="navfonts">about</a></li>
-            <li><a href=work.html class="navfonts">work</a></li>
-            <li><a href=contact.html class="navfonts">contact</a></li>
+            <a href=index.html class="index navfonts">home</a>
+            <a href=about.html class="about navfonts">about</a>
+            <a href=work.html class="work navfonts">work</a>
+            <a href=contact.html class="contact navfonts">contact</a>
         </ul>
         <div class="workbanner">
             <h1 class="commonfonts bannertext">this is some of the work I've done</h1>
         </div>
         <script>
-            $(document).ready(function(){});
-            $(".navfonts").click(function(){
-                $(".navfonts".css('color', 'red'));
+            $(document).ready(function(){
+            $(".index").click(function(){
+                $(".index".css('color', 'red'));
+                });
             });
         </script>
     </body>

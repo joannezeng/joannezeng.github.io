@@ -13,26 +13,42 @@
             <h1>Joanne Zeng</h1>
         </header>
         <ul class="navbar commonfonts">
-            <li><a href=index.html class="index navfonts">home</a></li>
-            <li><a href=about.html class="about navfonts">about</a></li>
-            <li><a href=work.html class="work navfonts">work</a></li>
-            <li><a href=contact.html class="contact navfonts">contact</a></li>
+            <a href=index.html class="index navfonts">home
+            <a href=about.html class="about navfonts">about
+            <a href=work.html class="work navfonts">work
+            <a href=contact.html class="contact navfonts">contact
         </ul>
+
         <div class="homebanner">
             <h1 class="commonfonts bannertext">welcome to my website</h1>
         </div>
 
-        
-        <img src="https://github.com/joannezeng/joannezeng.github.io/blob/main/tr-n-toan-wqrM1yJkTxE-unsplash.jpg?raw=true" width=
-            "326.4" height="429.8">
-        <img src="https://github.com/joannezeng/joannezeng.github.io/blob/main/blue-bird-VQizHjXjsiw-unsplash.jpg?raw=true" width=
-            "270.7" height="344.8">
-        <img scr="https://github.com/joannezeng/joannezeng.github.io/blob/main/graham-klingler-rCDg7IT7_ZU-unsplash.jpg?raw=true" width=
-            "291.6" height="518.4">
+        <div class="homeimg">
+            <img src="https://github.com/joannezeng/joannezeng.github.io/blob/main/pinkcandles.jpg?raw=true" width="220" height="330">
+            <img src="https://github.com/joannezeng/joannezeng.github.io/blob/main/pinkglass.jpg?raw=true" width="220" height="330">
+            <img src="https://github.com/joannezeng/joannezeng.github.io/blob/main/pinkglasspour.jpg?raw=true" width="220" height="330">
+        </div>
+
+        <div class="homeimgbtns">
+            <div class="aboutlink">
+                <a href=about.html>about</a>
+            </div>
+            <div class="worklink">
+                <a href=work.html>work</a>
+            </div>
+            <div class="contactlink">
+                <a href=contact.html>contact</a>
+            </div>
+        </div>
 
         <script>
-
+            $(document).ready(function(){
+            $("aboutlink").click(function(){
+                $(".index").css('color', 'red');
+                });
+            });
         </script>
+
     </body>
 
 </html>
