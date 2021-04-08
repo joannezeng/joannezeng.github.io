@@ -129,6 +129,21 @@ a:link, a:visited, a:active{
     color: white;
 }
 
+.contactpagestuff {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 30%);
+    grid-template-rows: repeat(5, 20%);
+}
+
+.crystal {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
 .contactform {
     display: grid;
     width: 100%;
